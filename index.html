@@ -50,7 +50,7 @@
                     stroke="currentColor"
                     class="h-6 w-6"
                     fill="none"
-                    >
+                    ></svg>
                     <g clip-path="url(#clip0_429_11066)">
                       <path
                         d="M3 6.00092H21M3 12.0009H21M3 18.0009H21"
@@ -434,6 +434,7 @@
                             href="mailto:hello@loople.com">
                                 hi@cachebank.com
                             </p>
+                        </div>
                         <!-- Card 2-->
                         <div class="flex flex-col items-center gap-4 px-6 py-8 bg-white cursor-pointer rounded-3xl shadow-main">
                             <span>
@@ -500,7 +501,9 @@
      </section>                   
     </div>
     <script>
-        document.getElementById("mobile-menu-toggle").addEventListener{}
+        document.getElementById("mobile-menu-toggle").addEventListener("click", function() {
+                document.getElementById("mobile-menu").classList.toggle("hidden")
+            })
     </script>
     <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/plugins/countup.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/countto.js"></script>
